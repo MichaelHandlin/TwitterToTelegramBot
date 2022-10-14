@@ -14,7 +14,7 @@ A Telegram bot API key (Guide [Here](https://tutorials.botsfloor.com/creating-a-
 .`pip install python-telegram-bot -U --pre`
 .`pip install tweepy python-devenv`
 2. In the directory containing the extracted files, create a `.env` file containing the following:
-```
+...```
 API_KEY = "Your Twitter API Key"
 ACCESS_TOKEN = "Your unique twitter Access Token"
 ACCESS_SECRET = "Your unique twitter Access Secret"
