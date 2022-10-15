@@ -28,4 +28,4 @@ A Telegram bot API key (Guide [Here](https://tutorials.botsfloor.com/creating-a-
     And replace the strings with your unique access tokens. These need to be unique to your instance because otherwise there would be usage issues from Telegram and Twitter.  
 
 # Usage
-Navigate to the installation folder in a terminal and execute `python3 telegram_handler.py`
+Navigate to the installation folder in a terminal and execute `python3 TwitterToTelegramBot.py`
