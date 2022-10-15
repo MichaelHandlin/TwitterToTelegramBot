@@ -3,12 +3,11 @@ A python bot that takes tweets from a user-defined list and creates a twitter fe
 
 # Requirements
 Python 3.10 or above
-python-telegram-bot v20.0a0
-tweepy
-python-devenv
-The various Twitter API keys (Guide [Here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api))
-A Telegram bot API key (Guide [Here](https://tutorials.botsfloor.com/creating-a-bot-using-the-telegram-bot-api-5d3caed3266d))
-
+python-telegram-bot v20.0a0  
+tweepy  
+python-devenv  
+The various Twitter API keys (Guide [Here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api))  
+A Telegram bot API key (Guide [Here](https://tutorials.botsfloor.com/creating-a-bot-using-the-telegram-bot-api-5d3caed3266d))  
 # Installation
 1. Extract the downloaded folder into the desired directory and execute the following to install the requirements:
 .`pip install python-telegram-bot -U --pre`
