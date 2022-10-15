@@ -14,16 +14,18 @@ A Telegram bot API key (Guide [Here](https://tutorials.botsfloor.com/creating-a-
 .`pip install python-telegram-bot -U --pre`
 .`pip install tweepy python-devenv`
 2. In the directory containing the extracted files, create a `.env` file containing the following:
-...```
-API_KEY = "Your Twitter API Key"
-ACCESS_TOKEN = "Your unique twitter Access Token"
-ACCESS_SECRET = "Your unique twitter Access Secret"
-CONSUMER_KEY= "Your twitter consumer key"
-CONSUMER_SECRET = "your twitter consumer secret"
-BEARER_TOKEN = "Your twitter bearer token"
-TELEGRAM_TOKEN = "Your Telegram API Token"
-```
-And replace the strings with your unique access tokens. These need to be unique to your instance because otherwise there would be usage issues from Telegram and Twitter.
+
+    ```
+    API_KEY = "Your Twitter API Key"
+    ACCESS_TOKEN = "Your unique twitter Access Token"
+    ACCESS_SECRET = "Your unique twitter Access Secret"
+    CONSUMER_KEY= "Your twitter consumer key"
+    CONSUMER_SECRET = "your twitter consumer secret"
+    BEARER_TOKEN = "Your twitter bearer token"
+    TELEGRAM_TOKEN = "Your Telegram API Token"
+    ```
+
+    And replace the strings with your unique access tokens. These need to be unique to your instance because otherwise there would be usage issues from Telegram and Twitter.  
 
 # Usage
-
+Navigate to the installation folder in a terminal and execute `python3 telegram_handler.py`
