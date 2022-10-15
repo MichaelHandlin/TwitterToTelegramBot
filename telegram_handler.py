@@ -5,11 +5,6 @@ from database_handler import DatabaseHandler
 from telegram import Update, InputMediaPhoto
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, ContextTypes, CommandHandler, CallbackContext
 
-#logging.basicConfig(
-#    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-#    level=logging.INFO
-#)
-
 async def start(update: Update, context: ContextTypes.context):
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -202,12 +197,6 @@ async def credits(update: Update, context: CallbackContext):
             chat_id=update.effective_chat.id,
             text="Written by Michael Handlin"
         )
-
-def get_tweet_text(self, tweet):
-    output = ""
-
-    return output
-
 
 if __name__ == '__main__':
     global twitter
